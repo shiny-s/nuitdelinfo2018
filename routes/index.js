@@ -1,10 +1,8 @@
 var express = require('express');
 var router = express.Router();
-//var path = require('path');
 
 router.get('/', function(req, res, next) {
-  //res.sendFile(path.join(__dirname, '../views', 'index.html'));
-  res.render('index');
+  res.render('login');
 });
 
 module.exports = router;
